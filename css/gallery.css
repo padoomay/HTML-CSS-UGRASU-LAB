@@ -1,0 +1,144 @@
+@import url('reset.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/media/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 80px;
+    min-height: 120px;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    margin-bottom: 75px;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.logo-photo {
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 30px;
+}
+
+.logo-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
+}
+
+.logo-text {
+    font-size: 48px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.menu-link {
+    font-size: 32px;
+    color: black;
+    font-family: "Bitter", serif;
+    font-weight: 400;
+    font-style: bold;
+    transition: all 0.25s;
+}
+
+.menu-link:hover {
+    color: rgb(245, 78, 209);
+}
+
+.main {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.page-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.page-name {
+    color: rgb(243, 63, 243);
+    font-size: 48px;
+    font-family: "Bitter", serif;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery-box {
+    width: 360px;
+    height: 360px;
+    position: relative;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.gallery-photo {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 10px 5px rgb(238, 102, 238);
+    transition: all 0.35s;
+}
+
+.gallery-photo:hover {
+    box-shadow: 0 0 10px 5px red;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: white;
+    min-height: 130px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.developer-text {
+    font-size: 24px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
