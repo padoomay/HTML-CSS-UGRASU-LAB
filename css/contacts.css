@@ -202,6 +202,7 @@ textarea.input {
 }
 
 .map-block {
+    margin-bottom: 10px;
     box-shadow: 0 0 10px 5px white;
     width: 500px;
     height: 500px;
@@ -231,4 +232,157 @@ textarea.input {
     font-weight: 400;
     font-style: normal;
     text-decoration: underline;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .header {
+        min-height: 80px;
+        margin-bottom: 35px;
+    }
+    
+    .logo-text {
+        font-size: 24px;
+    }
+
+    .logo-photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .menu-link {
+        font-size: 20px;
+    }
+
+    .page-name {
+        font-size: 32px;
+    }
+
+    .contact-text { 
+        font-size: 24px;
+    }
+
+    .contact-photo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .contact-info {
+        font-size: 18px;
+    }
+
+    .user-text {
+        font-size: 18px;
+    }
+
+    input.input {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    textarea.input {
+        width: 250px;
+        height: 150px;
+        font-size: 18px;
+        margin: 15px;
+        resize: none;
+    }
+
+    .message-btn {
+        margin-top: 30px;
+        padding: 10px 10px;
+        font-size: 18px;
+    }
+
+    .map-block {
+        width: 350px;
+        height: 350px;
+    }
+
+    .footer {
+        margin-top: 25px;
+        min-height: 80px;
+    }
+
+    .developer-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .header {
+        min-height: 70px;
+        margin-bottom: 25px;
+        padding: 10px 10px;
+    }
+    
+    .logo-text {
+        font-size: 20px;
+    }
+
+    .logo-photo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu-link {
+        font-size: 18px;
+    }
+
+    .page-name {
+        font-size: 28px;
+    }
+
+    .contact-text { 
+        font-size: 20px;
+    }
+
+    .contact-photo {
+        width: 270px;
+        height: 270px;
+    }
+
+    .contact-info {
+        font-size: 15px;
+    }
+
+    .user-text {
+        font-size: 15px;
+    }
+
+    input.input {
+        width: 190px;
+        height: 48px;
+        font-size: 15px;
+    }
+
+    textarea.input {
+        width: 230px;
+        height: 140px;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .message-btn {
+        margin-top: 15px;
+        padding: 7px 7px;
+        font-size: 15px;
+    }
+
+    .map-block {
+        width: 330px;
+        height: 330px;
+    }
+
+    .footer {
+        margin-top: 20px;
+        min-height: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .developer-text {
+        font-size: 15px;
+    }
 }
