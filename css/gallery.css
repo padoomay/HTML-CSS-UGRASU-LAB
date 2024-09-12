@@ -13,19 +13,19 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 75px;
     padding: 20px 80px;
     min-height: 120px;
+    display: flex;
+    justify-content: center;
     background-color: white;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-    margin-bottom: 75px;
 }
 
 .header-wrap {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .logo-box {
@@ -84,9 +84,9 @@ body {
 }
 
 .page-box {
+    margin-bottom: 25px;
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
 }
 
 .page-name {
@@ -105,17 +105,17 @@ body {
 }
 
 .gallery-box {
+    margin-right: 25px;
+    margin-bottom: 25px;
     width: 360px;
     height: 360px;
     position: relative;
-    margin-right: 25px;
-    margin-bottom: 25px;
 }
 
 .gallery-photo {
-    object-fit: cover;
     height: 100%;
     width: 100%;
+    object-fit: cover;
     box-shadow: 0 0 10px 5px rgb(238, 102, 238);
     transition: all 0.35s;
 }
@@ -126,14 +126,14 @@ body {
 
 .footer {
     margin-top: 50px;
-    background-color: white;
-    min-height: 130px;
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-left: 80px;
     padding-right: 80px;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 
 .developer-text {
@@ -184,9 +184,9 @@ body {
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
     .header {
-        min-height: 70px;
         margin-bottom: 30px;
         padding: 10px 10px;
+        min-height: 70px;
     }
     
     .logo-text {
@@ -213,9 +213,9 @@ body {
 
     .footer {
         margin-top: 20px;
-        min-height: 70px;
         padding-left: 10px;
         padding-right: 10px;
+        min-height: 70px;
     }
 
     .developer-text {

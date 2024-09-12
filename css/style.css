@@ -13,28 +13,24 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 75px;
     padding: 20px 80px;
     min-height: 120px;
+    display: flex;
+    justify-content: center;
     background-color: white;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-    margin-bottom: 75px;
 }
 
 .header-wrap {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .logo-box {
     display: flex;
     align-items: center;
-}
-
-.logo-photo {
-    margin-right: 10px;
 }
 
 .menu {
@@ -51,6 +47,7 @@ body {
 }
 
 .logo-photo {
+    margin-right: 10px;
     width: 80px;
     height: 80px;
     border-radius: 25%;
@@ -78,59 +75,58 @@ body {
 }
 
 .main {
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    min-height: 70vh;
 }
 
 .card-info {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 750px;
-    border-radius: 5%;
-    padding: 30px 30px;
-    box-shadow: 0 0 10px 5px white;
-
-    display: flex;
     margin-right: 50px;
     margin-bottom: 50px;
+    padding: 30px 30px;
+    width: 750px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    box-shadow: 0 0 10px 5px white;
 }
 
 .card-photo {
+    margin: 25px;
     width: 320px;
     height: 320px;
+    float: left;
     border-radius: 5%;
     box-shadow: 0 0 10px 5px rgb(238, 102, 238);
-    float: left;
-    margin: 25px;
 }
 
 .card-name {
-    color: rgb(226, 60, 226);
     font-size: 48px;
+    color: rgb(226, 60, 226);
     font-family: "Mulish", sans-serif;
     font-weight: 600;
     font-style: bold;
 }
 
 .card-text {
-    color: white;
-    font-size: 32px;
     margin: 10px;
+    font-size: 32px;
+    color: white;
     font-family: "Mulish", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .footer {
-    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
     min-height: 130px;
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 
 .developer-text {
@@ -189,9 +185,9 @@ body {
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
     .header {
-        min-height: 70px;
         margin-bottom: 30px;
         padding: 10px 10px;
+        min-height: 70px;
     }
     
     .main {
@@ -231,10 +227,9 @@ body {
 
     .footer {
         margin-top: 20px;
-        min-height: 70px;
-
         padding-left: 10px;
         padding-right: 10px;
+        min-height: 70px;
     }
 
     .developer-text {

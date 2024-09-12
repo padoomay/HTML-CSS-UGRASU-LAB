@@ -1,7 +1,5 @@
 @import url('reset.css');
 
-@import url('reset.css');
-
 * {
     box-sizing: border-box;
 }
@@ -15,19 +13,19 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 75px;
     padding: 20px 80px;
     min-height: 120px;
+    display: flex;
+    justify-content: center;
     background-color: white;
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-    margin-bottom: 75px;
 }
 
 .header-wrap {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .logo-box {
@@ -91,8 +89,8 @@ body {
 }
 
 .page-name {
-    font-size: 48px;
     margin-bottom: 30px;
+    font-size: 48px;
     color: rgb(233, 62, 233);
     font-family: "Bitter", serif;
     font-weight: 400;
@@ -106,14 +104,14 @@ body {
 }
 
 .card-info {
-    padding: 15px 30px;
     margin-bottom: 50px;
-    box-shadow: 0 0 10px 5px rgb(238, 102, 238);
-    border-radius: 5%;
     margin-right: 50px;
+    padding: 15px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 0 10px 5px rgb(238, 102, 238);
+    border-radius: 5%;
 }
 
 .contact-photo {
@@ -167,31 +165,31 @@ body {
 }
 
 input.input {
-    background-color: white;
+    margin: 15px;
+    padding: 5px;
     width: 300px;
     height: 50px;
-    padding: 5px;
     font-size: 18px;
+    background-color: white;
     box-shadow: 0 0 10px 5px white;
-    margin: 15px;
 }
 
 textarea.input {
+    margin: 15px;
+    padding: 5px;
     width: 450px;
     height: 150px;
-    background-color: white;
-    padding: 5px;
-    font-size: 18px;
-    box-shadow: 0 0 10px 5px white;
-    margin: 15px;
     resize: none;
+    font-size: 18px;
+    background-color: white;
+    box-shadow: 0 0 10px 5px white;
 }
 
 .message-btn {
     margin-top: 75px;
+    padding: 15px 15px;
     background-color: red;
     border-radius: 10px;
-    padding: 15px 15px;
     box-shadow: 0 0 10px 5px red;
     color: white;
     font-size: 24px;
@@ -203,9 +201,9 @@ textarea.input {
 
 .map-block {
     margin-bottom: 10px;
-    box-shadow: 0 0 10px 5px white;
     width: 500px;
     height: 500px;
+    box-shadow: 0 0 10px 5px white;
 }
 
 .message-btn:hover {
@@ -216,14 +214,14 @@ textarea.input {
 
 .footer {
     margin-top: 50px;
-    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
     min-height: 130px;
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 
 .developer-text {
@@ -236,8 +234,8 @@ textarea.input {
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
     .header {
-        min-height: 80px;
         margin-bottom: 35px;
+        min-height: 80px;
     }
     
     .logo-text {
@@ -275,18 +273,18 @@ textarea.input {
     }
 
     input.input {
+        margin: 10px;
         width: 200px;
         height: 50px;
         font-size: 18px;
-        margin: 10px;
     }
 
     textarea.input {
+        margin: 15px;
+        resize: none;
         width: 250px;
         height: 150px;
         font-size: 18px;
-        margin: 15px;
-        resize: none;
     }
 
     .message-btn {
@@ -312,9 +310,9 @@ textarea.input {
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
     .header {
-        min-height: 70px;
         margin-bottom: 25px;
         padding: 10px 10px;
+        min-height: 70px;
     }
     
     .logo-text {
@@ -358,10 +356,10 @@ textarea.input {
     }
 
     textarea.input {
+        margin: 10px;
         width: 230px;
         height: 140px;
         font-size: 15px;
-        margin: 10px;
     }
 
     .message-btn {
@@ -377,9 +375,9 @@ textarea.input {
 
     .footer {
         margin-top: 20px;
-        min-height: 70px;
         padding-left: 10px;
         padding-right: 10px;
+        min-height: 70px;
     }
 
     .developer-text {
